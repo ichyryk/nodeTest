@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "babel src -d lib"
+  },
+  "keywords": [],
+  "author": "Iryna Chyryk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash.throttle": "^4.1.1",
+    "npm-check-updates": "^10.2.5",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
